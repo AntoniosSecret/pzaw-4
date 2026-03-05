@@ -1,18 +1,8 @@
-[
-    {
-        "id": "d654ccdf-ef8a-43a5-b782-d0cd0f5e01fb",
-        "text": "123133",
-        "cardId": "aad58327-0f25-4c86-9902-9d942d54cf3f"
-    },
-    {
-        "id": "65e2d156-9433-482e-90c8-bda3c2af21ef",
-        "text": "dasdasda",
-        "cardId": "aad58327-0f25-4c86-9902-9d942d54cf3f"
-    },
-    {
-        "id": "6517ebde-002b-4f2a-80d3-ee12b1427ebb",
-        "text": "asdasda",
-        "cardId": "aad58327-0f25-4c86-9902-9d942d54cf3f",
-        "completed": false
+{
+    "eee26ed6-e50c-4ace-85f3-6ac0fd2bc514": {
+        "6dd188b4-4e31-4e22-a112-fd7438639baa": {
+            "text": "caadada",
+            "completed": false
+        }
     }
-]
+}

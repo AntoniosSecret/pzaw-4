@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 
 const Card = ({ id, onDelete }) => {
     const [ showForm, setShowForm ] = useState(false)
@@ -22,6 +22,22 @@ const Card = ({ id, onDelete }) => {
         })
         const data = await response.json()
         console.log(data)
+    }
+
+    const recieveData = () => {
+        const [ cardData, setCardData ] = useState([])
+
+        useEffect(() => {
+            fetch('http://localhost:8000/send')
+            .then((res) => {
+                return res.json()
+            })
+            .then((data) => {
+                console.log(data)
+                setCardData(data)
+            })
+        }, [])
+
     }
 
     const Form = () => {

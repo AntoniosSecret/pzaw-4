@@ -26,11 +26,28 @@ app.post('/cards', (req, res) => {
     const fileData = fs.readFileSync('data.json', 'utf-8')
     const cards = JSON.parse(fileData)
 
-    cards.push(newCard)
+    if (!Object.keys(cards).includes(newCard.cardId)) {
+        cards[newCard.cardId] = {}
+    }
+
+    const id = newCard.id
+    const cardId = newCard.cardId
+
+    delete newCard.id
+    delete newCard.cardId
+
+    cards[cardId][id] = newCard
 
     fs.writeFileSync('data.json', JSON.stringify(cards, null, 4))
 
     res.status(201).json({ message: newCard })
+})
+
+app.post('/send', (req, res) => {
+    const cards = JSON.parse(fs.readFileSync('data.json', 'utf-8'))
+
+
+    res.status(201).json(cards)
 })
 
 app.listen(8000, () => {
