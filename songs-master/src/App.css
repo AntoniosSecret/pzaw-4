@@ -1,0 +1,127 @@
+body {
+  background-color: rgb(248, 249, 250);
+}
+
+#mediaPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+
+  width: 400px;
+  height: auto;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);  
+}
+
+#cover {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 15px;
+
+  margin-top: 20px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#songTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#songAuthor {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+span {
+  color: #666;
+}
+
+#time {
+  background: #e9ecef;
+  height: 5px;
+  width: 90%;
+  border-radius: 5px;
+  color: linear-gradient(90deg, #1db954, #1ed760);
+  border-radius: 5px;
+}
+
+#time::-webkit-progress-bar {
+  background: #e9ecef;
+  border-radius: 5px;
+}
+
+#time::-webkit-progress-value {
+  background: linear-gradient(90deg, #1db954, #1ed760);
+  border-radius: 5px;
+}
+
+#volume {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: transparent;
+}
+
+#volume::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: #e9ecef;
+}
+
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #1db954;
+  border-radius: 50%;
+  margin-top: -4px; /* center thumb */
+  cursor: pointer;
+}
+
+#visualizer {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+
+  margin: 20px 0;
+
+  height: 25px;
+  gap: 5px;
+}
+
+.vBars {
+  width: 3px;
+  background: #1db954;
+  border-radius: 3px;
+  animation: bounce 1s infinite;
+}
+
+/* keep your base height variations */
+.vBars:nth-of-type(4n - 3) { height: 20px; }
+.vBars:nth-of-type(4n - 2) { height: 17px; }
+.vBars:nth-of-type(4n - 1) { height: 23px; }
+.vBars:nth-of-type(4n)     { height: 12px; }
+
+/* 8 independent timings */
+.vBars:nth-child(1) { animation-duration: 0.82s; animation-delay: -0.15s; }
+.vBars:nth-child(2) { animation-duration: 1.07s; animation-delay: -0.62s; }
+.vBars:nth-child(3) { animation-duration: 0.91s; animation-delay: -0.33s; }
+.vBars:nth-child(4) { animation-duration: 1.21s; animation-delay: -0.74s; }
+.vBars:nth-child(5) { animation-duration: 0.76s; animation-delay: -0.28s; }
+.vBars:nth-child(6) { animation-duration: 1.14s; animation-delay: -0.55s; }
+.vBars:nth-child(7) { animation-duration: 0.95s; animation-delay: -0.41s; }
+.vBars:nth-child(8) { animation-duration: 1.29s; animation-delay: -0.67s; }
+
+@keyframes bounce {
+  25% { height: 25px; }
+  50% { height: 10px; }
+}
