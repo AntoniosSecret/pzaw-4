@@ -1,0 +1,184 @@
+{
+    "employees": [
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440006",
+            "name": "Marek Dąbrowski",
+            "position": "Grafik",
+            "department": "Design",
+            "email": "marek.dabrowski@example.com",
+            "salary": 7000,
+            "age": 29,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440007",
+            "name": "Karolina Wójcik",
+            "position": "Recepcjonistka",
+            "department": "Administracja",
+            "email": "karolina.wojcik@example.com",
+            "salary": 5000,
+            "age": 27,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440008",
+            "name": "Krzysztof Lewandowski",
+            "position": "Specjalista ds. Finansów",
+            "department": "Finanse",
+            "email": "krzysztof.lewandowski@example.com",
+            "salary": 9500,
+            "age": 38,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440009",
+            "name": "Magdalena Stępień",
+            "position": "Sprzedawca",
+            "department": "Sprzedaż",
+            "email": "magdalena.stepien@example.com",
+            "salary": 6200,
+            "age": 31,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440010",
+            "name": "Robert Majewski",
+            "position": "Logistyk",
+            "department": "Logistyka",
+            "email": "robert.majewski@example.com",
+            "salary": 7200,
+            "age": 37,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440011",
+            "name": "Katarzyna Nowak",
+            "position": "Pracownik biurowy",
+            "department": "Administracja",
+            "email": "katarzyna.nowak@example.com",
+            "salary": 5700,
+            "age": 26,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440012",
+            "name": "Łukasz Kowalski",
+            "position": "Specjalista IT",
+            "department": "IT",
+            "email": "lukasz.kowalski@example.com",
+            "salary": 9500,
+            "age": 32,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440013",
+            "name": "Karolina Piotrowska",
+            "position": "Konsultantka",
+            "department": "IT",
+            "email": "karolina.piotrowska@example.com",
+            "salary": 8200,
+            "age": 34,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440014",
+            "name": "Piotr Adamczyk",
+            "position": "Kierownik ds. sprzedaży",
+            "department": "Sprzedaż",
+            "email": "piotr.adamczyk@example.com",
+            "salary": 10000,
+            "age": 45,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440015",
+            "name": "Izabela Szymańska",
+            "position": "Specjalista ds. HR",
+            "department": "HR",
+            "email": "izabela.szymanska@example.com",
+            "salary": 7700,
+            "age": 29,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440016",
+            "name": "Rafał Grabowski",
+            "position": "Menedżer ds. marketingu",
+            "department": "Marketing",
+            "email": "rafal.grabowski@example.com",
+            "salary": 9500,
+            "age": 41,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440017",
+            "name": "Joanna Malinowska",
+            "position": "Starszy Programista",
+            "department": "IT",
+            "email": "joanna.malinowska@example.com",
+            "salary": 10500,
+            "age": 36,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440018",
+            "name": "Wojciech Nowak",
+            "position": "Project Manager",
+            "department": "IT",
+            "email": "wojciech.nowak@example.com",
+            "salary": 11500,
+            "age": 39,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440019",
+            "name": "Natalia Kamińska",
+            "position": "Pracownik biurowy",
+            "department": "Administracja",
+            "email": "natalia.kaminska@example.com",
+            "salary": 6000,
+            "age": 26,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440020",
+            "name": "Michał Król",
+            "position": "Inżynier Oprogramowania",
+            "department": "IT",
+            "email": "michal.krol@example.com",
+            "salary": 9400,
+            "age": 33,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440021",
+            "name": "Marta Sobolewska",
+            "position": "Konsultantka ds. Marketingu",
+            "department": "Marketing",
+            "email": "marta.sobolewska@example.com",
+            "salary": 8800,
+            "age": 32,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440023",
+            "name": "Kamil Brzeziński",
+            "position": "Specjalista ds. marketingu",
+            "department": "Marketing",
+            "email": "kamil.brzezinski@example.com",
+            "salary": 9500,
+            "age": 30,
+            "country": "Polska"
+        },
+        {
+            "id": "550e8400-e29b-41d4-a716-446655440024",
+            "name": "Olga Nowicka",
+            "position": "Specjalista IT",
+            "department": "IT",
+            "email": "olga.nowicka@example.com",
+            "salary": 9100,
+            "age": 34,
+            "country": "Polska"
+        }
+    ]
+}
